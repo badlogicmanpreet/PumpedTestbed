@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/addressDetailsLayout"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/googleMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment" />
+    <ImageView android:id="@+id/resetMapView"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_centralize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<com.voyagertech.ccfuel.view.ScaleBar-->
+    <!--android:id="@+id/scaleBar"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="50dp" />-->
+</RelativeLayout>

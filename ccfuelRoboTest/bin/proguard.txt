@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:9
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view res/layout/map_view.xml #generated:6
+-keep class com.google.android.gms.maps.MapFragment { <init>(...); }
+
