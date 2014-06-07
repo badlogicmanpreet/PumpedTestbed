@@ -155,39 +155,6 @@ public class OrientationTest extends ActivityInstrumentationTestCase2 {
 		solo.sleep(1000);
 
 	}
-	
-	/**
-	 * Test if app is stable when the orientation changes [Landscape, Portrait]
-	 */
-	public void OrientWhileNav() {
-		solo.assertCurrentActivity("Wrong Activity", "HomeActivity");
-		
-		clickHomeListView();
-
-		// Robotium will sleep for the specified time.
-		solo.sleep(5000);
-
-		solo.setActivityOrientation(Solo.LANDSCAPE);
-
-		// Robotium will sleep for the specified time.
-		solo.sleep(1000);
-
-		solo.setActivityOrientation(Solo.PORTRAIT);
-		
-		// Robotium will sleep for the specified time.
-		solo.sleep(1000);
-		
-		solo.setActivityOrientation(Solo.LANDSCAPE);
-
-		// Robotium will sleep for the specified time.
-		solo.sleep(1000);
-		
-		solo.setActivityOrientation(Solo.PORTRAIT);
-
-		// Robotium will sleep for the specified time.
-		solo.sleep(1000);
-
-	}
 
 	private void clickHomeListView() {
 		solo.clickInList(0);
