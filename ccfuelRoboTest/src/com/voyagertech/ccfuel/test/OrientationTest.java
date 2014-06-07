@@ -51,17 +51,11 @@ public class OrientationTest extends ActivityInstrumentationTestCase2 {
 	 */
 	public void testOrientBruteForceWay() {
 		solo.assertCurrentActivity("Wrong Activity", "HomeActivity");
-<<<<<<< HEAD
-
-=======
-		
->>>>>>> 3ceac7941ebfd0dd0d876aa9a16bf7f8604bd425
 		clickHomeListView();
 
 		// Robotium will sleep for the specified time.
 		solo.sleep(5000);
 
-<<<<<<< HEAD
 		// 1. Set Preferences to retrieve smaller results
 		solo.setNavigationDrawer(Solo.OPENED);
 
@@ -137,41 +131,29 @@ public class OrientationTest extends ActivityInstrumentationTestCase2 {
 		// Robotium will sleep for the specified time.
 		solo.sleep(5000);
 
-=======
->>>>>>> 3ceac7941ebfd0dd0d876aa9a16bf7f8604bd425
 		solo.setActivityOrientation(Solo.LANDSCAPE);
 
 		// Robotium will sleep for the specified time.
 		solo.sleep(1000);
 
 		solo.setActivityOrientation(Solo.PORTRAIT);
-<<<<<<< HEAD
 
 		// Robotium will sleep for the specified time.
 		solo.sleep(1000);
 
-=======
-		
 		// Robotium will sleep for the specified time.
 		solo.sleep(1000);
 		
->>>>>>> 3ceac7941ebfd0dd0d876aa9a16bf7f8604bd425
 		solo.setActivityOrientation(Solo.LANDSCAPE);
 
 		// Robotium will sleep for the specified time.
 		solo.sleep(1000);
-<<<<<<< HEAD
 
-=======
-		
->>>>>>> 3ceac7941ebfd0dd0d876aa9a16bf7f8604bd425
 		solo.setActivityOrientation(Solo.PORTRAIT);
 
 		// Robotium will sleep for the specified time.
 		solo.sleep(1000);
 
-<<<<<<< HEAD
-=======
 	}
 	
 	/**
@@ -205,7 +187,6 @@ public class OrientationTest extends ActivityInstrumentationTestCase2 {
 		// Robotium will sleep for the specified time.
 		solo.sleep(1000);
 
->>>>>>> 3ceac7941ebfd0dd0d876aa9a16bf7f8604bd425
 	}
 
 	private void clickHomeListView() {
