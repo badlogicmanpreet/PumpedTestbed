@@ -263,13 +263,3 @@ public class NavWorkFlowTest extends ActivityInstrumentationTestCase2 {
 	}
 
 }
-
-	}
-
-	@Override
-	public void tearDown() {
-		solo.finishOpenedActivities();
-	}
-
-}
->>>>>>> 3ceac7941ebfd0dd0d876aa9a16bf7f8604bd425
