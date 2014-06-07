@@ -112,7 +112,7 @@
     <target name="run">
       <exec executable="${sdk.dir}/platform-tools/adb">
         <arg value="install"/>
-        <arg value="/Users/msghotra/MSDrive/GDrive/Myworld/Android/gitmac/FuelApp/ccfueltestbed/ccfuelRoboTest/bin/ccfuelRoboTest-release.apk"/>
+        <arg value="${user.dir}/bin/ccfuelRoboTest-release.apk"/>
       </exec>
    </target>
 
