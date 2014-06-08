@@ -51,10 +51,7 @@ public class OrientationTest extends ActivityInstrumentationTestCase2 {
 	 */
 	public void testOrientBruteForceWay() {
 		solo.assertCurrentActivity("Wrong Activity", "HomeActivity");
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
 		clickHomeListView();
 
 		// Robotium will sleep for the specified time.
@@ -147,11 +144,7 @@ public class OrientationTest extends ActivityInstrumentationTestCase2 {
 
 		// Robotium will sleep for the specified time.
 		solo.sleep(1000);
-<<<<<<< HEAD
 
-=======
-		
->>>>>>> FETCH_HEAD
 		solo.setActivityOrientation(Solo.LANDSCAPE);
 
 		// Robotium will sleep for the specified time.
